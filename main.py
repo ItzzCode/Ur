@@ -82,7 +82,7 @@ dfield=[
 game=dfield
 for i in range(3):
     game[plr[0][i][2]][plr[0][i][3]]=">"
-    game="<"
+    game[plr[1][i][2]][plr[1][i][3]]="<"
 
 #not mine lol
 #https://gist.github.com/benhosmer/6498864
