@@ -64,7 +64,8 @@ plr=[
     ]
 ]
 
-game=[
+#rugby thing
+dfield=[
     ["X","X","X","-","-","-","x","x","x","-","-","-","x","x","x","X","X","X",],
     ["X","X","X","-","-","-","x","x","x","-","-","-","x","x","x","X","X","X",],
     ["X","X","X","-","-","-","x","x","x","-","-","-","x","x","x","X","X","X",],
@@ -78,7 +79,13 @@ game=[
     ["X","X","X","-","-","-","x","x","x","-","-","-","x","x","x","X","X","X",],
     ["X","X","X","-","-","-","x","x","x","-","-","-","x","x","x","X","X","X",],
 ]
+game=dfield
+for i in range(4):
+    game[plr[0][i][2]][plr[0][i][3]]=">"
+    game[plr[1][i][2]][plr[1][i][3]]=">"
 
+#not mine lol
+#https://gist.github.com/benhosmer/6498864
 for i, line in enumerate(game):
     for char in line:
         print(char,end="")
