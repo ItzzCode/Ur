@@ -36,28 +36,28 @@ plr=[
         [
             "Jesse", #name
             6, #defense treshold
-            15,0, #x, y
+            14,0, #x, y
             False, #has ball
             False #down
         ],
         [
             "Mel", #name
             3, #defense treshold
-            15,4, #x, y
+            14,3, #x, y
             False, #has ball
             False #down
         ],
         [
             "Sam", #name
             7, #defense treshold
-            15,8, #x, y
+            14,7, #x, y
             False, #has ball
             False #down
         ],
         [
             "Mike", #name
             6, #defense treshold
-            15,12, #x, y
+            14,11, #x, y
             False, #has ball
             False #down
         ]
@@ -80,9 +80,9 @@ dfield=[
     ["X","X","X","-","-","-","x","x","x","-","-","-","x","x","x","X","X","X",],
 ]
 game=dfield
-for i in range(4):
+for i in range(3):
     game[plr[0][i][2]][plr[0][i][3]]=">"
-    game[plr[1][i][2]][plr[1][i][3]]=">"
+    game="<"
 
 #not mine lol
 #https://gist.github.com/benhosmer/6498864
