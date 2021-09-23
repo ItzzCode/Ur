@@ -34,8 +34,6 @@ plr=[
     #enemies team
     [
         [
-           [
-        [
             "Jesse", #name
             6, #defense treshold
             15,0, #x, y
@@ -64,7 +62,7 @@ plr=[
             False #down
         ]
     ]
-]]]
+]
 
 game=[
     ["X","X","X","-","-","-","x","x","x","-","-","-","x","x","x","X","X","X",],
